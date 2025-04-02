@@ -17,7 +17,8 @@ export default function Navigation() {
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
               <Link href="/" className="flex items-center">
-                <span className="text-xl font-bold text-primary-600">Solana CertVerify</span>
+              <Link href="/" className="text-xl font-bold text-primary-600">
+                CertVerify
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
@@ -45,7 +46,7 @@ export default function Navigation() {
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
             <button className="btn-primary">
-              Connect Solana Wallet
+              Connect Wallet
             </button>
           </div>
           <div className="-mr-2 flex items-center sm:hidden">
@@ -101,7 +102,7 @@ export default function Navigation() {
         <div className="pt-4 pb-3 border-t border-gray-200">
           <div className="px-4">
             <button className="btn-primary w-full">
-              Connect Solana Wallet
+              Connect Wallet
             </button>
           </div>
         </div>
